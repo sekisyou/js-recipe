@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>FizzBuzz</h1>
+    <script>
+      //FIzzBuzz問題
+      //   const FizzBuzz = function (n) {
+      //     for (let i = 1; i < n; i++) {
+      //       if (i % 15 === 0) {
+      //         console.log("FIzzBuzz")
+      //       } else if (i % 3 === 0) {
+      //         console.log("Fizz")
+      //       } else if (i % 5 === 0) {
+      //         console.log("Buzz")
+      //       } else {
+      //         console.log(i)
+      //       }
+      //     }
+      //     return
+      //   }
+      //  FizzBuzz(31)
+
+      //1日一万歩
+      const toho = function (d, s) {
+        const d_cm = d * 1000 * 100
+        const hosuu = d_cm / s
+        if (hosuu >= 10000) {
+          console.log("歩数は" + hosuu + "なのでyex")
+        } else {
+          console.log("歩数は" + hosuu + "なのでno")
+        }
+        return
+      }
+      toho(100, 70)
+    </script>
+  </body>
+</html>

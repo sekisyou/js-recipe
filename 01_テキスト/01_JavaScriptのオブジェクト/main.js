@@ -11,6 +11,7 @@ const hikakin = {
     console.log("ブンブンハロー YouTube")
   },
 }
+hikakin.sayHello()
 
 // TRY: 練習問題１
 // hikakin オブジェクト を真似して自分のプロフィールをオブジェクトで作ってください。

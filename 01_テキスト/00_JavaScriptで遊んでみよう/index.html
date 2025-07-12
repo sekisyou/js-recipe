@@ -8,15 +8,24 @@
   </head>
   <body>
     <div id="display">ここに何かが表示される</div>
-    <button id="button">クリック！</button>
+    <botton id="botton2">クリック！！</botton>
+    <button id="button1">クリック！</button>
 
     <script>
       // カウンターアプリに発展させてみましょう
 
       const display = document.getElementById("display")
-      const button = document.getElementById("button")
-      button.onclick = function () {
+      const button1 = document.getElementById("button1")
+      const botton2 = document.getElementById("botton2")
+
+      button1.onclick = function () {
         display.textContent = "クリックされた！！"
+      }
+      botton2.onclick = function () {
+        display.textContent = "こっちクリックしたのか!!"
+      }
+      display.onclick = function () {
+        display.textContent = "よくこっちクリックしようと思ったね"
       }
     </script>
   </body>
