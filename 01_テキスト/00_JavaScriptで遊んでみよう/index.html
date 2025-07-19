@@ -8,7 +8,7 @@
   </head>
   <body>
     <div id="display">ここに何かが表示される</div>
-    <botton id="botton2">クリック！！</botton>
+    <button id="button2">クリック！！</button>
     <button id="button1">クリック！</button>
 
     <script>
@@ -16,12 +16,12 @@
 
       const display = document.getElementById("display")
       const button1 = document.getElementById("button1")
-      const botton2 = document.getElementById("botton2")
+      const button2 = document.getElementById("button2")
 
       button1.onclick = function () {
         display.textContent = "クリックされた！！"
       }
-      botton2.onclick = function () {
+      button2.onclick = function () {
         display.textContent = "こっちクリックしたのか!!"
       }
       display.onclick = function () {
